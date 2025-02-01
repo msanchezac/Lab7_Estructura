@@ -38,7 +38,7 @@ m.mostrar()
 c = ColaPrioritaria()       #heredamos los atributos pero no su contenido, al usarse sus metodos, en cola prioritaria el arreglo inicia vacio.
 c.build_max_heap(arreglo)
 
-print("Implementación MAX-HEAP-INSERT, insertando el número 5 al arreglo: ")        #Al usar el metodo despues del for, reorganiza los numeros en un orden distinto pero sigue cumpliendo la propiedad de un heap
+print("Implementación MAX-HEAP-INSERT, insertando el número 100 al arreglo: ")        #Al usar el metodo despues del for, reorganiza los numeros en un orden distinto pero sigue cumpliendo la propiedad de un heap
 c.max_heap_insert(100)           
 c.mostrar()
 
