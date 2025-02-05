@@ -44,7 +44,7 @@ c.mostrar()
 
 print("Implementación HEAP-EXTRACT-MAX: ")  
 c.heap_extract_max()
-c.mostrar()
+c.mro()
 
 print("Implementación HEAP-MAXIMUM: ")
 print(c.heap_maximum())

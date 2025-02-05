@@ -10,6 +10,10 @@ class Monticulo:
     def mostrar(self):
         print(self.A)
 
+    def mro(self):
+        print(self.A[:self.heap_size])
+
+
     def parent(self, i):        #indice del hijo
         R = math.ceil((i/2)-1)      #Para aproximar decimales al entero mayor más cercano
         if R < 0:
